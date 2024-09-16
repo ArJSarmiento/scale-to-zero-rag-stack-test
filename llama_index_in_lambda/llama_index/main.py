@@ -13,7 +13,6 @@ from pydantic import BaseModel
 
 from llama_index.core import VectorStoreIndex
 import boto3
-import uvicorn
 
 
 async def prompt(input_text: str):
